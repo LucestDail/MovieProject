@@ -2,12 +2,11 @@
 
 ## Introduction 
 
-This repository is my first, closed-work, project.
+Currently, this project has been closed.
 
 
 ## DEMO
 
-Currently, this project has been closed.
 If you want to check this project, follow the below building step "How to run this source code" and try this url.
 [This url](http://localhost:8080/Movie/movie/board/index.do)
 
