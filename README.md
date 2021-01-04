@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-This repository is my portfolio, on-work, project which used html/css, javascript.
+This repository is my first, closed-work, project.
 
 
 ## DEMO
