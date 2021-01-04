@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<!--  /WEB-INF/decorators.xml -->
+<decorators defaultdir = "/layout">
+	<decorator name = "board" page = "samplelayout.jsp">
+		<pattern>/movie/Movie/*</pattern>
+		<pattern>/movie/board/*</pattern>
+		<pattern>/movie/member/*</pattern>
+		<pattern>/movie/chat/*</pattern>
+	</decorator>
+		<!--  excluding sitemesh layout configuration -->
+	<excludes>
+		<pattern>/movie/member/id*</pattern>
+		<pattern>/movie/member/pw*</pattern>
+		<pattern>/movie/member/picture*</pattern>
+		<pattern>/movie/member/password*</pattern>
+		<pattern>/movie/board/imgupload*</pattern>
+		<pattern>/movie/ajax/*</pattern>
+	</excludes>
+</decorators>

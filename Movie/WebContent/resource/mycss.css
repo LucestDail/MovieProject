@@ -1,0 +1,214 @@
+@charset "EUC-KR";
+*{
+	margin: 0;
+}
+a {
+	text-decoration:none
+} 
+
+body{
+    margin: 0;
+    font-family : '¸¼Àº °íµñ',
+        'Apple SD Gothic Neo',
+        sans-serif;
+}
+
+#header {
+	background-color: #B53B38;
+}
+
+#headerMenu {
+	color: #FFFFFF;
+}
+
+#headerNavi {
+	background-color: #4a1817;
+	color: #FFFFFF;
+}
+
+#headerMenu {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+ul {
+	list-style: none;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.redbutton {
+  background-color: #B53B38;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  border-color:black;
+}
+
+.normalbutton {
+  border: none;
+  color: black;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  border-color: #e7e7e7;
+}
+
+.headerMenubar{
+	padding-right: 30px;
+}
+
+.headerMenubar:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.headerMenubar li {
+	float: left;
+	margin-left: 10px;
+	padding-left: 10px;
+	line-height: 8px;
+	border-left: 1px solid #ccc;
+}
+
+.headerMenubar li:first-child {
+	margin-left: 0;
+	padding-left: 0;
+	border-left: 0;
+}
+
+.headerMenubar li a {
+	line-height: 8px;
+	font-size: 11px;
+	color: #fff;
+}
+
+
+.headerLogoMark{
+	margin-left:25%;
+}
+
+
+
+
+.headerNaviMenubar{
+	padding-right: 0px;
+	margin-top:0px;
+	margin-left:25%;
+}
+
+.headerNaviMenubar:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.headerNaviMenubar li {
+	float: left;
+	margin-left: 30px;
+	padding-left: 10px;
+	line-height: 60px;
+}
+
+.headerNaviMenubar li:first-child {
+	margin-left: 0;
+	padding-left: 0;
+	border-left: 0;
+}
+
+.headerNaviMenubar li a {
+	line-height: 10px;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+
+footer{
+    color: #FFFFFF;
+    background-color: #B53B38;
+    
+}
+
+footer .container{
+    padding: 40px 20px;
+}
+
+.footerMain{
+    margin-bottom: 30px;
+}
+
+.footerMain h2{
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align : center;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 30px;
+    letter-spacing: 0.2em;
+}
+
+.footerMain p{
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align : center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+}
+
+.footerMain a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.footerCopyright{
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+
+.introductionWrap{
+	text-align : center;
+	width : 40%;
+}
+
+.introductionHead{
+	margin-top: 0;
+    margin-bottom: 10px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 28px;
+    letter-spacing: 0.2em;
+}
+
+.introductionContent{
+	margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+}
+
+.introductionimg{
+	border: 1px solid #FFFFFF;
+}
+
+.introductionimgsrc{
+	width : 640px;
+	height : 480px;
+	border: 10px solid #FFFFFF;
+	border-radius: 20px;
+	-moz-border-radius: 7px;
+	-khtml-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
